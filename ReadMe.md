@@ -47,17 +47,13 @@ cd n8n
 
 ### 2. Configure Environment Variables  
 Set up required environment variables for Google Drive, Postgres, and Ollama:  
+
 ```env
 GOOGLE_DRIVE_CLIENT_ID=your-client-id
 GOOGLE_DRIVE_CLIENT_SECRET=your-secret
 POSTGRES_URL=postgres://user:password@localhost:5432/dbname
 OLLAMA_HOST=http://localhost:11434
-```
 
-### 3. Initialize n8n  
-```bash
-npm install -g n8n
-n8n
 ```
 
 ---
@@ -116,8 +112,7 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 
 ---
 
-## 🔗 Related Projects  
-- [Docling](https://github.com/KoaResearchGroup/docling): Extract structured data from documents  
+## 🔗 Related Projects   
 - [Notebooks](https://github.com/KoaResearchGroup/notebooks): Fine-tuning scripts for AI models  
 - [Koa Research Group Website](https://koaresearch.group): Learn more about our mission  
 
